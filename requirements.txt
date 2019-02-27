@@ -1,9 +1,7 @@
 
-Specifications Nokia 5110 LCD
+Raspberrypi
+-any version
+-installed with kivy[python library]
 
-84*48 dot matrix LCD (shows 4 lines of characters)
-Price: $2/$3
-Voltage: 3.3V
-Module size: 45.2mm x 43.1mm
-Model: Nokia 5510
-Controller: PCD8544
+touchscreen for RPi 7"
+
