@@ -1,7 +1,0 @@
-
-Raspberrypi
--any version
--installed with kivy[python library]
-
-touchscreen for RPi 7"
-
