@@ -36,7 +36,13 @@
         font_size: 20
         valign: 'middle'
         id:t1
-        
+        canvas.before:
+            Color:
+                rgb: 0.2, 0.2, 0.2 # your color here
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                
     Label:
         text:'200 m/s'
         font_size:40
@@ -52,7 +58,12 @@
         font_size: 20
         valign: 'middle'
         id:t2
-        
+        canvas.before:
+            Color:
+                rgb: 0.2, 0.2, 0.2 # your color here
+            Rectangle:
+                pos: self.pos
+                size: self.size
         
     Label:
         text:'[b][color=f47141]Temperature [/color][/b][color=f47141] \n [size=40] 10 [/size] [/color]'
@@ -60,6 +71,12 @@
         font_size: 20
         valign: 'middle'
         id:t3
+        canvas.before:
+            Color:
+                rgb: 0.2, 0.2, 0.2 # your color here
+            Rectangle:
+                pos: self.pos
+                size: self.size
         
         
     BoxLayout:
@@ -71,9 +88,11 @@
         Label:
             text:'90%'
             color: 0,1,0,1
+            bcolor:0.2,0.2,0.2,1
             font_size:30
             valign: 'middle'
             id:soc_value
+            
         
             
         ProgressBar:
@@ -91,6 +110,12 @@
         font_size: 20
         valign: 'middle'
         id:t4
+        canvas.before:
+            Color:
+                rgb: 0.2, 0.2, 0.2 # your color here
+            Rectangle:
+                pos: self.pos
+                size: self.size
         
         
         

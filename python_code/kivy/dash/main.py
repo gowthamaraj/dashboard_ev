@@ -33,6 +33,7 @@ class RevElectricApp(App):
         
         soc=int(random()*100)
         self.root.ids.soc.value =soc
+        soc=str(int(random()*100))+'%'
         self.root.ids.soc_value.text =str(soc)
 
 
