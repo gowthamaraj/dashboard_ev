@@ -2,6 +2,8 @@
 
 ## 1. I used python GUI library for developing(*KIVY*)
 
+[screen](screen.png)
+
 ## 2. I used *grafana*, *InfluxDB* along with *python* to create the dashboard.
 
 
