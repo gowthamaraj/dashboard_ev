@@ -1,0 +1,125 @@
+<RootWidget>:
+    cols: 3
+    rows: 3
+    spacing : 3
+   
+
+             
+    Label:
+        text:'[b][color=41f45b]Distance Travelled[/color][/b][color=41f45b] \n [size=40] 200 [/size] [/color]'
+        markup : True
+        font_size: 20
+        valign: 'middle'
+        
+    
+        
+        
+    Image:
+        source:"icon.png"
+        size_hint_x: 1
+        allow_stretch: True
+        size_hint_y: 1
+        valign: 'middle'
+        
+
+        
+    Label:
+        text:'[b][color=41f45b]Distance Yet to Travel[/color][/b][color=41f45b] \n [size=40] 200 [/size] [/color]'
+        markup : True
+        font_size: 20
+        valign: 'middle'
+        
+             
+    Label:
+        text:'[b][color=f47141]Temperature [/color][/b][color=f47141] \n [size=40] 10 [/size] [/color]'
+        markup : True
+        font_size: 20
+        valign: 'middle'
+        id:t1
+        canvas.before:
+            Color:
+                rgb: 0.2, 0.2, 0.2 # your color here
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                
+    Label:
+        text:'200 m/s'
+        font_size:40
+        color: 1,0,1,1
+        valign: 'middle'
+        id:speed
+        
+        
+        
+    Label:
+        text:'[b][color=f47141]Temperature [/color][/b][color=f47141] \n [size=40] 10 [/size] [/color]'
+        markup : True
+        font_size: 20
+        valign: 'middle'
+        id:t2
+        canvas.before:
+            Color:
+                rgb: 0.2, 0.2, 0.2 # your color here
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        
+    Label:
+        text:'[b][color=f47141]Temperature [/color][/b][color=f47141] \n [size=40] 10 [/size] [/color]'
+        markup : True
+        font_size: 20
+        valign: 'middle'
+        id:t3
+        canvas.before:
+            Color:
+                rgb: 0.2, 0.2, 0.2 # your color here
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        
+        
+    BoxLayout:
+        row:2
+        padding:0,0,5,0
+        valign: 'middle'
+        
+
+        Label:
+            text:'90%'
+            color: 0,1,0,1
+            bcolor:0.2,0.2,0.2,1
+            font_size:30
+            valign: 'middle'
+            id:soc_value
+            
+        
+            
+        ProgressBar:
+            max:100
+            value:90
+            id:soc
+            valign: 'middle'
+        
+
+        
+    
+    Label:
+        text:'[b][color=f47141]Temperature [/color][/b][color=f47141] \n [size=40] 10 [/size] [/color]'
+        markup : True
+        font_size: 20
+        valign: 'middle'
+        id:t4
+        canvas.before:
+            Color:
+                rgb: 0.2, 0.2, 0.2 # your color here
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        
+        
+        
+ 
+        
+
+        
